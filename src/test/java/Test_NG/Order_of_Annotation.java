@@ -34,9 +34,14 @@ public class Order_of_Annotation {
 	  System.out.println("Before Method");	
 	}
 	@Test
-	public void test() 
+	public void Test1()
 	{
-	 System.out.println("Test");	
+	 System.out.println("Test1");	
+	}
+	@Test
+	public void Test2() 
+	{
+	 System.out.println("Test2");	
 	}
 	@AfterMethod
 	public void After_Method() 
