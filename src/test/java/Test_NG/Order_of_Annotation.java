@@ -43,6 +43,12 @@ public class Order_of_Annotation {
 	{
 	 System.out.println("Test2");	
 	}
+	@Test
+	public void Test3() 
+	{
+	 System.out.println("Test3");	
+	}
+	
 	@AfterMethod
 	public void After_Method() 
 	{
